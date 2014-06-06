@@ -1,0 +1,46 @@
+{
+  "name": "grunt-untar",
+  "description": "A grunt task to decompress/extract tar files",
+  "version": "0.0.1",
+  "homepage": "https://github.com/arhs/grunt-untar",
+  "author": {
+    "name": "Laurent VB"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/arhs/grunt-untar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arhs/grunt-untar/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/arhs/grunt-untar/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5",
+    "concat-stream": "^1.4.6"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.0"
+  },
+  "keywords": [
+    "gruntplugin", "grunt",
+    "tar", "targz", "tgz", "tarball", "decompress"
+  ],
+  "dependencies": {
+    "async": "^0.9.0",
+    "tar": "^0.1.19"
+  }
+}
