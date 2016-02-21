@@ -33,11 +33,16 @@
     "concat-stream": "^1.4.6"
   },
   "peerDependencies": {
-    "grunt": "~0.4.0"
+    "grunt": ">=0.4.0"
   },
   "keywords": [
-    "gruntplugin", "grunt",
-    "tar", "targz", "tgz", "tarball", "decompress"
+    "gruntplugin",
+    "grunt",
+    "tar",
+    "targz",
+    "tgz",
+    "tarball",
+    "decompress"
   ],
   "dependencies": {
     "async": "^0.9.0",
